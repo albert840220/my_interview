@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.mysql',
-       'NAME': 'hswe_db',
+       'NAME': 'hswe_web',
        'USER': 'root',
        'PASSWORD': '00000000',
        'HOST': 'localhost',
@@ -125,7 +125,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'zh-Hant' #'en-us'此為英文語系
 
-TIME_ZONE = 'Asia/Taipei'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
