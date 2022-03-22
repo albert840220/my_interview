@@ -1,0 +1,6 @@
+建置一文章管理API Django Project
+1.環境建置請採用 docker-compose，python 使用 3.7 版本， MariaDB/PostgreSQL 不限版本
+2.Web 框架採用 Django 3.2
+3.文章資料欄位與測試資料請參考 https://dailyview.tw/ 畫面產出四隻「熱門文章」 API，包含新增、刪除、修改、取得文章 
+4.API權限使用 JWT，請產生至少一個 user 可透過 JWT token 操作「熱門文章」 API
+5.完成後請將程式碼上傳至 github 並附上如何啟動專案說明 (Readme)
